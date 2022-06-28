@@ -70,8 +70,9 @@ body {
     bottom: 100px;
     background: #0c161c70;
     z-index: 9;
+    padding-left: 80px;
     @media screen and (min-width: 768px) {
-        padding-left: 70px;
+        // padding-left: 80px;
     }
 }
 
@@ -85,9 +86,47 @@ body {
     // height: 100%;
 }
 
+@media (min-width: 768px) and (max-width:1024px) {
+    .hovarable-card .card-img-top,
+    .hovarable-card .card-body {
+        margin: 0 auto;
+        text-align: center !important;
+        width: 100%;
+        height: auto;
+    }
+    .our-team-left {
+        padding: 0px 69px !important;
+    }
+    .team-h3 {
+        font: normal normal normal 80px/100px dazn_oscinexbold !important;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .hide-desktop-watch-cta {
         display: none;
+    }
+    #team-pills>li.active>a,
+    #team-pills>li.active>a:focus,
+    #team-pills>li.active>a:hover {
+        font: normal normal normal 17px/80px dazn_oscineregular !important;
+    }
+    #team-pills>li>a {
+        font: normal normal normal 17px/80px dazn_oscineregular !important;
+    }
+    .hovarable-card .card-img-top,
+    .hovarable-card .card-body {
+        margin: 0 auto;
+        text-align: center !important;
+        // width: 100%;
+        height: auto;
+    }
+    .card-heading.card-heading,
+    .card-desig {
+        text-align: center !important;
+    }
+    .modal-card-heading {
+        margin-top: 25px;
     }
     .watch-cta {
         width: 321px;
@@ -103,7 +142,7 @@ body {
         color: $blackText
     }
     .home .nav-item a {
-        font: normal normal bold 39px/50px dazn_oscineregular;
+        font: normal normal bold 25px/50px dazn_oscineregular;
     }
     .h2-class {
         color: $YellowText;
@@ -121,13 +160,29 @@ body {
     }
     .team-h3 {
         text-align: left;
+        // width: 600px !important;
         width: 250px !important;
         height: 20px;
-        font: normal normal normal 19px/25px dazn_oscinexbold;
+        // font: normal normal normal 40px/30px dazn_oscinexbold !important;
         color: #fff
     }
     .homepage-hero {
-        padding: 40px 40px;
+        // padding-left: 80px;
+    }
+    // .our-team-left {
+    //     padding: 0px 5px !important;
+    // }
+}
+
+@media screen and (max-width:600px) {
+    .our-team-left {
+        padding: 0px 5px !important;
+    }
+    .homepage-hero {
+        padding-left: 16px !important;
+    }
+    .team-h3 {
+        font: normal normal normal 40px/30px dazn_oscinexbold !important;
     }
 }
 
@@ -185,13 +240,14 @@ body {
     }
     .team-h3 {
         text-align: left;
-        width: 250px !important;
-        height: 20px;
-        font: normal normal normal 19px/25px dazn_oscinexbold;
+        width: 400px !important;
+        height: 90px;
+        // font: normal normal normal 70px/30px dazn_oscinexbold;
+        width: 600px !important;
         color: #fff
     }
     .homepage-hero {
-        padding: 40px 40px;
+        padding-left: 80px;
     }
 }
 
@@ -601,11 +657,12 @@ body {
     position: relative;
     top: 0;
     background-repeat: no-repeat;
+    height: 465px;
 }
 
 .team-h3 {
     text-align: left;
-    font: normal normal normal 45px/20px dazn_oscinexbold;
+    font: normal normal normal 100px/90px dazn_oscineExtrabold;
     letter-spacing: 0px;
     color: #F7FF1A;
     text-transform: uppercase;
@@ -660,8 +717,8 @@ body {
 .card-img-top {
     background: #b9bec3;
     border-radius: 50%;
-    width: 180px;
-    height: 180px;
+    width: 233px;
+    height: 230px;
     text-align: center;
     margin: 10px 20px;
     object-fit: contain;
@@ -682,7 +739,7 @@ body {
 .btn-bio {
     color: #002CA5;
     text-transform: uppercase;
-    padding: 5px 0;
+    padding: 5px 10px 0px 10px !important
 }
 
 .modal-card-img-top {
@@ -743,4 +800,17 @@ body {
     // padding-left: 0 !important;
     // padding-right: 0 !important;
     padding-bottom: 0;
+}
+
+.btn-bio:focus,
+.btn-bio.focus {
+    box-shadow: unset !important;
+}
+
+.our-team-left {
+    padding: 0 70px;
+}
+
+.hovarable-card {
+    text-decoration: none !important;
 }
