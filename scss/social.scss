@@ -681,11 +681,11 @@ body {
 
 .card-heading {
     text-align: left;
-    font: normal normal normal 32px/50px dazn_oscinexbold;
+    font: normal normal normal 24px/50px dazn_oscinexbold;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
-    padding: 15px 25px 0 25px;
+    padding: 15px 15px 0 25px;
 }
 
 .card-desig {
@@ -700,10 +700,13 @@ body {
     // background: #b9bec3;
     // border-radius: 50%;
     // width: 180px;
-    height: 180px;
-    text-align: center;
+    height: 200px;
+    text-align: left;
     // margin: 10px 20px;
-    object-fit: contain;
+    //object-fit: contain;
+    margin-left: 5.5%;
+    width: 88%;
+    
 }
 
 .hovarable-card:hover {
@@ -809,7 +812,7 @@ body {
     font: normal normal 300 16px/25px dazn_oscineregular;
     padding: 50px 0px 15px;
     p {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     @media screen and (min-width: 767px) {
         padding-left: 55px;
@@ -834,7 +837,7 @@ body {
 p.card-text {
     min-height: 100px;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.7;
 }
 
 .card-back {
