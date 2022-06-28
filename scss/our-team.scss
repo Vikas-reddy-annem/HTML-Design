@@ -70,8 +70,9 @@ body {
     bottom: 100px;
     background: #0c161c70;
     z-index: 9;
+    padding-left: 80px;
     @media screen and (min-width: 768px) {
-        padding-left: 80px;
+        // padding-left: 80px;
     }
 }
 
@@ -83,6 +84,22 @@ body {
 .home .main {
     position: $posrelative;
     // height: 100%;
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .hovarable-card .card-img-top,
+    .hovarable-card .card-body {
+        margin: 0 auto;
+        text-align: center !important;
+        width: 100%;
+        height: auto;
+    }
+    .our-team-left {
+        padding: 0px 69px !important;
+    }
+    .team-h3 {
+        font: normal normal normal 80px/100px dazn_oscinexbold !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -101,6 +118,8 @@ body {
     .hovarable-card .card-body {
         margin: 0 auto;
         text-align: center !important;
+        // width: 100%;
+        height: auto;
     }
     .card-heading.card-heading,
     .card-desig {
@@ -141,13 +160,29 @@ body {
     }
     .team-h3 {
         text-align: left;
-        width: 600px !important;
-        height: 90px;
-        font: normal normal normal 70px/30px dazn_oscinexbold;
+        // width: 600px !important;
+        width: 250px !important;
+        height: 20px;
+        // font: normal normal normal 40px/30px dazn_oscinexbold !important;
         color: #fff
     }
     .homepage-hero {
-        padding-left: 80px;
+        // padding-left: 80px;
+    }
+    // .our-team-left {
+    //     padding: 0px 5px !important;
+    // }
+}
+
+@media screen and (max-width:600px) {
+    .our-team-left {
+        padding: 0px 5px !important;
+    }
+    .homepage-hero {
+        padding-left: 16px !important;
+    }
+    .team-h3 {
+        font: normal normal normal 40px/30px dazn_oscinexbold !important;
     }
 }
 
@@ -207,7 +242,7 @@ body {
         text-align: left;
         width: 400px !important;
         height: 90px;
-        font: normal normal normal 70px/30px dazn_oscinexbold;
+        // font: normal normal normal 70px/30px dazn_oscinexbold;
         width: 600px !important;
         color: #fff
     }

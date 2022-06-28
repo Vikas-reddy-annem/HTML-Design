@@ -10495,13 +10495,8 @@ body {
   bottom: 100px;
   background: rgba(12, 22, 28, 0.4392156863);
   z-index: 9;
+  padding-left: 80px;
 }
-@media screen and (min-width: 768px) {
-  .homepage-hero {
-    padding-left: 80px;
-  }
-}
-
 .hero-tag-text {
   margin: 0;
   padding: 0;
@@ -10511,6 +10506,23 @@ body {
   position: relative;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hovarable-card .card-img-top,
+.hovarable-card .card-body {
+    margin: 0 auto;
+    text-align: center !important;
+    width: 100%;
+    height: auto;
+  }
+
+  .our-team-left {
+    padding: 0px 69px !important;
+  }
+
+  .team-h3 {
+    font: normal normal normal 80px/100px dazn_oscinexbold !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .hide-desktop-watch-cta {
     display: none;
@@ -10530,6 +10542,7 @@ body {
 .hovarable-card .card-body {
     margin: 0 auto;
     text-align: center !important;
+    height: auto;
   }
 
   .card-heading.card-heading,
@@ -10577,14 +10590,22 @@ body {
 
   .team-h3 {
     text-align: left;
-    width: 600px !important;
-    height: 90px;
-    font: normal normal normal 70px/30px dazn_oscinexbold;
+    width: 250px !important;
+    height: 20px;
     color: #fff;
+  }
+}
+@media screen and (max-width: 600px) {
+  .our-team-left {
+    padding: 0px 5px !important;
   }
 
   .homepage-hero {
-    padding-left: 80px;
+    padding-left: 16px !important;
+  }
+
+  .team-h3 {
+    font: normal normal normal 40px/30px dazn_oscinexbold !important;
   }
 }
 .dazn-logo {
@@ -10650,7 +10671,6 @@ body {
     text-align: left;
     width: 400px !important;
     height: 90px;
-    font: normal normal normal 70px/30px dazn_oscinexbold;
     width: 600px !important;
     color: #fff;
   }
