@@ -10066,10 +10066,16 @@ h3 {
   position: relative;
   z-index: 1;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .owl-carousel {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .owl-carousel {
+    padding-left: 35px;
+    padding-right: 55px;
   }
 }
 
@@ -10648,14 +10654,14 @@ body {
 
   .partner-h3 {
     text-align: left;
-    width: 868px !important;
-    height: 87px;
+    width: 765px !important;
+    height: 90px;
     font: normal normal normal 19px/25px dazn_oscinexbold;
     color: #fff;
   }
 
   .homepage-hero {
-    padding-left: 80px;
+    padding-left: 67px;
   }
 }
 /*Plugin CSS*/
@@ -10718,8 +10724,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer-section {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -11089,7 +11095,7 @@ body {
 
 .partner-h3 {
   text-align: left;
-  font: normal normal normal 100px/90px dazn_oscineExtrabold;
+  font: normal normal normal 85px/90px dazn_oscineExtrabold;
   letter-spacing: 0px;
   color: #F7FF1A;
   text-transform: uppercase;
@@ -11242,5 +11248,12 @@ p.card-text {
   }
 }
 .our-team-left {
-  padding: 0 70px;
+  padding: 0 55px;
+}
+
+@media screen and (min-width: 768px) and (min-width: 1024px) {
+  .logo {
+    margin-right: 5rem;
+    padding-left: 54px;
+  }
 }/*# sourceMappingURL=partner-with-us.css.map */

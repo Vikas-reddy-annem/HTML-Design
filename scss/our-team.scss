@@ -66,7 +66,7 @@ body {
 .homepage-hero {
     position: $posAbsolute;
     align-items: center;
-    padding: 40px 15px;
+    padding: 20px 15px;
     bottom: 100px;
     background: #0c161c70;
     z-index: 9;
@@ -240,14 +240,14 @@ body {
     }
     .team-h3 {
         text-align: left;
-        width: 400px !important;
+        // width: 400px !important;
         height: 90px;
         // font: normal normal normal 70px/30px dazn_oscinexbold;
-        width: 600px !important;
+        width: 532px !important;
         color: #fff
     }
     .homepage-hero {
-        padding-left: 80px;
+        padding-left: 68px;
     }
 }
 
@@ -313,8 +313,8 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
     @media screen and (min-width: 768px) {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 55px;
+        padding-right: 55px;
     }
     .footer-about {
         p {
@@ -662,7 +662,7 @@ body {
 
 .team-h3 {
     text-align: left;
-    font: normal normal normal 100px/90px dazn_oscineExtrabold;
+    font: normal normal normal 85px/90px dazn_oscineExtrabold;
     letter-spacing: 0px;
     color: #F7FF1A;
     text-transform: uppercase;
@@ -808,7 +808,7 @@ body {
 }
 
 .our-team-left {
-    padding: 0 70px;
+    padding: 0 56px;
 }
 
 .hovarable-card {
@@ -832,4 +832,11 @@ body {
 
 .card-body {
     margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (min-width: 1024px) {
+    .logo {
+        margin-right: 5rem;
+        padding-left: 54px;
+    }
 }
