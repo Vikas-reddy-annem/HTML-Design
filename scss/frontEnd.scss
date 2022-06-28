@@ -153,10 +153,10 @@ body {
         width: 220px;
         height: 50px;
         background: $YellowText 0% 0% no-repeat padding-box;
-        margin-right: 34px;
+        margin-right: 50px;
         border: none;
         @media screen and (min-width: 1024px){
-          margin-right: 54px;
+          margin-right: 70px;
         }
     }
     .watch-text {
@@ -177,7 +177,10 @@ body {
     }
     .body-text {
         background-position: right;
-        background-size: 100%;
+        background-size: 50% 100%;
+        p{
+          padding-right: 50%;
+        }
     }
     .h2-class {
         color: $YellowText;
@@ -413,6 +416,7 @@ body {
         }
         @media only screen and (min-width: 1024px) {
             padding-left: 55px;
+            padding-right: 55px;
         }
         @media screen and (min-width: 768px) and (max-width: 1023px){
           padding-right: 35px;
@@ -519,6 +523,7 @@ body {
     }
     @media screen and (min-width: 768px) and (max-width: 1023px){
       padding-left: 5px;
+      padding-right: 35px;
         .fans-counter {
           font: normal normal normal 44px/40px dazn_oscinexbold;
         }
@@ -791,6 +796,30 @@ body {
 }
 
 .social-Impact-class{
-  font: normal normal normal 100px/90px dazn_oscineregular;
+  font: normal normal normal 100px/90px dazn_oscineExtrabold;
   color: $YellowText;
+}
+.social-impact-text {
+  font: normal normal 300 30px/50px dazn_oscineregular;
+  padding: 50px 0px;
+  p{
+    margin-bottom: 2rem;
+  }
+  @media screen and (min-width: 767px) {
+      padding-left: 55px;
+      padding-right: 70px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+    padding-left: 35px;
+      padding-right: 35px;
+  }
+}
+.social-impact-box{
+  width: 490px;
+  height: 690px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 2px 4px 20px #C7CBD072;
+  border: 1px solid #C7CBD0;
+  border-radius: 12px;
 }
