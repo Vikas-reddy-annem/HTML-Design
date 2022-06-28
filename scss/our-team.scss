@@ -794,6 +794,7 @@ body {
 .home .nav-item a.active {
     border-bottom: 2px solid #F7FF1A;
     color: white;
+    padding: 0;
 }
 
 .home .nav-item a {
@@ -813,6 +814,7 @@ body {
 
 .hovarable-card {
     text-decoration: none !important;
+    cursor: pointer;
 }
 
 @media (min-width: 1440px) and (max-width: 2560px) {

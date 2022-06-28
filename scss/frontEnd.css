@@ -10066,10 +10066,16 @@ h3 {
   position: relative;
   z-index: 1;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .owl-carousel {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .owl-carousel {
+    padding-left: 35px;
+    padding-right: 55px;
   }
 }
 
@@ -10463,9 +10469,14 @@ body {
   width: auto;
   font: normal normal bold 20px/26px dazn_oscineregular;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .global-navbar .navbar-nav li {
     padding-left: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .global-navbar .navbar-nav li {
+    padding-left: 15px;
   }
 }
 
@@ -10496,9 +10507,14 @@ body {
   background: rgba(12, 22, 28, 0.5647058824);
   z-index: 9;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .homepage-hero {
-    padding-left: 80px;
+    padding-left: 70px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .homepage-hero {
+    padding-left: 50px;
   }
 }
 
@@ -10511,7 +10527,7 @@ body {
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .hide-desktop-watch-cta {
     display: none;
   }
@@ -10577,30 +10593,49 @@ body {
     width: 220px;
     height: 50px;
     background: #F7FF1A 0% 0% no-repeat padding-box;
-    margin-right: 70px;
+    margin-right: 50px;
     border: none;
   }
-
+}
+@media screen and (min-width: 768px) and (min-width: 1024px) {
+  .watch-cta {
+    margin-right: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
   .watch-text {
     font: normal normal normal 25px/20px dazn_oscinexbold;
     color: #0C161C;
     line-height: 50px;
   }
-
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 1rem;
+    padding-left: 34px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1024px) {
   .logo {
     margin-right: 5rem;
-    padding-left: 70px;
+    padding-left: 54px;
   }
-
+}
+@media screen and (min-width: 768px) {
   .nav-link {
     display: initial !important;
   }
-
+}
+@media screen and (min-width: 768px) {
   .body-text {
     background-position: right;
-    background-size: 100%;
+    background-size: 50% 100%;
   }
-
+  .body-text p {
+    padding-right: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
   .h2-class {
     color: #F7FF1A;
     width: 965px;
@@ -10608,7 +10643,8 @@ body {
     text-align: left;
     font: normal normal normal 100px/90px dazn_oscineExtrabold;
   }
-
+}
+@media screen and (min-width: 768px) {
   .h3-class {
     text-align: left;
     width: 983px;
@@ -10616,7 +10652,13 @@ body {
     font: normal normal normal 29px/40px dazn_oscinexbold;
     color: #FFFFFF;
   }
-
+}
+@media screen and (min-width: 768px) and (min-width: 768px) and (max-width: 1023px) {
+  .h3-class {
+    font: normal normal normal 20px/40px dazn_oscinexbold;
+  }
+}
+@media screen and (min-width: 768px) {
   .team-h3 {
     text-align: left;
     width: 250px !important;
@@ -10671,10 +10713,16 @@ body {
   font-size: 3vh;
   line-height: 5.4vh;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .fan-exp {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fan-exp {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 
@@ -10686,8 +10734,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer-section {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -10841,9 +10889,15 @@ body {
     padding: 30px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .mission-sports .mission-sports-txt {
-    padding-left: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mission-sports .mission-sports-txt {
+    padding-right: 35px;
   }
 }
 .mission-sports .mission-sports-y-set {
@@ -10867,9 +10921,14 @@ body {
     padding: 30px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .mission-sports .mission-sports-y-set h2 {
-    padding-left: 70px;
+    padding-left: 55px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mission-sports .mission-sports-y-set h2 {
+    padding-left: 35px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -10937,12 +10996,21 @@ body {
 .connecting-to-fans-counter .fans-counter {
   font: normal normal bold 50px/49px dazn_oscinexbold;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .connecting-to-fans-counter {
-    padding-left: 70px;
+    padding-left: 55px;
   }
   .connecting-to-fans-counter .fans-counter {
     font: normal normal bold 75px/49px dazn_oscinexbold;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .connecting-to-fans-counter {
+    padding-left: 5px;
+    padding-right: 35px;
+  }
+  .connecting-to-fans-counter .fans-counter {
+    font: normal normal normal 44px/40px dazn_oscinexbold;
   }
 }
 @media screen and (max-width: 991px) {
@@ -10954,7 +11022,11 @@ body {
 }
 .connecting-to-fans-counter .des {
   margin-bottom: 0;
-  font-family: "dazn_oscinelight";
+}
+@media screen and (min-width: 1024px) {
+  .connecting-to-fans-counter .des {
+    font: normal normal 300 25px/30px dazn_oscineregular;
+  }
 }
 
 .connecting-to-fans-des {
@@ -10975,10 +11047,16 @@ body {
   background-repeat: no-repeat;
   padding: 50px 0px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .body-text {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .body-text {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 
@@ -10991,8 +11069,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .marq-set {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
 }
 
@@ -11190,6 +11268,7 @@ body {
 .home .nav-item a.active {
   border-bottom: 2px solid #F7FF1A;
   color: white;
+  padding: 0;
 }
 
 .home .nav-item a {
@@ -11207,6 +11286,36 @@ body {
 }
 
 .social-Impact-class {
-  font: normal normal normal 100px/90px dazn_oscineregular;
+  font: normal normal normal 100px/90px dazn_oscineExtrabold;
   color: #F7FF1A;
+}
+
+.social-impact-text {
+  font: normal normal 300 30px/50px dazn_oscineregular;
+  padding: 50px 0px;
+}
+.social-impact-text p {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 767px) {
+  .social-impact-text {
+    padding-left: 55px;
+    padding-right: 70px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .social-impact-text {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+.social-impact-box {
+  width: 490px;
+  height: 690px;
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 2px 4px 20px rgba(199, 203, 208, 0.4470588235);
+  border: 1px solid #C7CBD0;
+  border-radius: 12px;
 }/*# sourceMappingURL=frontEnd.css.map */
