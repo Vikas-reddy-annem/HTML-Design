@@ -70,9 +70,8 @@ body {
     bottom: 100px;
     background: #0c161c70;
     z-index: 9;
-    padding-left: 80px;
     @media screen and (min-width: 768px) {
-        // padding-left: 80px;
+        padding-left: 70px;
     }
 }
 
@@ -84,22 +83,6 @@ body {
 .home .main {
     position: $posrelative;
     // height: 100%;
-}
-
-@media (min-width: 768px) and (max-width:1024px) {
-    .hovarable-card .card-img-top,
-    .hovarable-card .card-body {
-        margin: 0 auto;
-        text-align: center !important;
-        width: 100%;
-        height: auto;
-    }
-    .our-team-left {
-        padding: 0px 69px !important;
-    }
-    .team-h3 {
-        font: normal normal normal 80px/100px dazn_oscinexbold !important;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -118,8 +101,6 @@ body {
     .hovarable-card .card-body {
         margin: 0 auto;
         text-align: center !important;
-        // width: 100%;
-        height: auto;
     }
     .card-heading.card-heading,
     .card-desig {
@@ -158,31 +139,15 @@ body {
         font: normal normal normal 19px/25px dazn_oscinexbold;
         color: $whiteText;
     }
-    .team-h3 {
+    .partner-h3 {
         text-align: left;
-        // width: 600px !important;
-        width: 250px !important;
+        width: 373px !important;
         height: 20px;
-        // font: normal normal normal 40px/30px dazn_oscinexbold !important;
+        font: normal normal normal 19px/32px dazn_oscinexbold;
         color: #fff
     }
     .homepage-hero {
-        // padding-left: 80px;
-    }
-    // .our-team-left {
-    //     padding: 0px 5px !important;
-    // }
-}
-
-@media screen and (max-width:600px) {
-    .our-team-left {
-        padding: 0px 5px !important;
-    }
-    .homepage-hero {
-        padding-left: 16px !important;
-    }
-    .team-h3 {
-        font: normal normal normal 40px/30px dazn_oscinexbold !important;
+        padding: 40px 82px;
     }
 }
 
@@ -238,12 +203,11 @@ body {
         font: normal normal normal 29px/90px dazn_oscinexbold;
         color: $whiteText;
     }
-    .team-h3 {
+    .partner-h3 {
         text-align: left;
-        width: 400px !important;
-        height: 90px;
-        // font: normal normal normal 70px/30px dazn_oscinexbold;
-        width: 600px !important;
+        width: 868px !important;
+        height: 87px;
+        font: normal normal normal 19px/25px dazn_oscinexbold;
         color: #fff
     }
     .homepage-hero {
@@ -650,9 +614,9 @@ body {
 // 
 //////////////////////////
 /// 
-.our-team-bg {
+.our-partner-bg {
     width: 100%;
-    background-image: url(../images/our-team-banner.png);
+    background-image: url(../images/partner-bg.png);
     background-size: cover;
     position: relative;
     top: 0;
@@ -660,7 +624,7 @@ body {
     height: 465px;
 }
 
-.team-h3 {
+.partner-h3 {
     text-align: left;
     font: normal normal normal 100px/90px dazn_oscineExtrabold;
     letter-spacing: 0px;
@@ -700,10 +664,16 @@ body {
 
 .card-heading {
     text-align: left;
-    font: normal normal normal 16px/10px dazn_oscineregular;
+    font: normal normal normal 24px/30px dazn_oscinebold;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    display: -webkit-box;
+    height: 60px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-desig {
@@ -716,11 +686,11 @@ body {
 
 .card-img-top {
     background: #b9bec3;
-    border-radius: 50%;
-    width: 233px;
-    height: 230px;
+    // border-radius: 50%;
+    width: 100%;
+    // height: 180px;
     text-align: center;
-    margin: 10px 20px;
+    // margin: 10px 20px;
     object-fit: contain;
 }
 
@@ -739,52 +709,7 @@ body {
 .btn-bio {
     color: #002CA5;
     text-transform: uppercase;
-    padding: 5px 10px 0px 10px !important
-}
-
-.modal-card-img-top {
-    background: #b9bec3;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    object-fit: contain;
-}
-
-.modal-card-heading {
-    font: normal normal bold 25px/10px dazn_oscineregular;
-    letter-spacing: 0px;
-    color: #000000;
-}
-
-.modal-card-desig {
-    font: normal normal normal 13px/20px dazn_oscineregular;
-    letter-spacing: 0px;
-    color: #000000;
-}
-
-.modal-bio {
-    font: normal normal normal 20px/25px dazn_oscineregular;
-    letter-spacing: 0px;
-    height: 300px;
-    overflow-y: auto;
-}
-
-.modal-bio::-webkit-scrollbar-track {
-    box-shadow: unset;
-    border-radius: 0px;
-    background-color: #fff;
-}
-
-.modal-bio::-webkit-scrollbar {
-    width: 12px;
-    background-color: #F5F5F5;
-}
-
-.modal-bio::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #C7CBD0;
+    padding: 5px 0;
 }
 
 .bottom-57 {
@@ -807,29 +732,54 @@ body {
     box-shadow: unset !important;
 }
 
+.btn-contact {
+    font: normal normal normal 20px/35px dazn_oscineregular;
+    letter-spacing: 0px;
+    color: #000000;
+    float: right;
+    background: #F7FF1A 0% 0% no-repeat padding-box;
+    padding-bottom: 0;
+}
+
+.card-back {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 4px 20px #C7CBD072;
+    border: 1px solid #C7CBD0;
+    border-radius: 12px;
+}
+
+p.card-text {
+    height: 160px;
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .hovarable-card .card-img-top,
+    .hovarable-card .card-body {
+        margin: 0 auto;
+        text-align: center !important;
+        width: 100%;
+        height: auto;
+    }
+    .our-team-left {
+        padding: 0px 69px !important;
+    }
+    .partner-h3 {
+        font: normal normal normal 80px/100px dazn_oscinexbold !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .our-team-left {
+        padding: 0px 5px !important;
+    }
+    .homepage-hero {
+        padding-left: 16px !important;
+    }
+    .partner-h3 {
+        font: normal normal normal 40px/30px dazn_oscinexbold !important;
+    }
+}
+
 .our-team-left {
     padding: 0 70px;
-}
-
-.hovarable-card {
-    text-decoration: none !important;
-}
-
-@media (min-width: 1440px) and (max-width: 2560px) {
-    .card-heading {
-        text-align: center !important;
-    }
-    .hovarable-card,
-    .card-img-top,
-    .card-body {
-        margin: 0 auto;
-        text-align: center;
-    }
-    .hovarable-card {
-        padding-top: 20px;
-    }
-}
-
-.card-body {
-    margin: 0 auto;
 }
