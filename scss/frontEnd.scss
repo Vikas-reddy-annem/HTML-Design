@@ -447,7 +447,7 @@ body {
         }
     }
     color: $black000;
-    background: linear-gradient(90deg, rgba(247, 255, 26, 1) 0%, rgba(249, 250, 250, 1) 80%);
+   
     @media only screen and (max-width: 400px) {
         background: #F9FAFA;
     }
@@ -823,4 +823,8 @@ body {
     box-shadow: 2px 4px 20px #C7CBD072;
     border: 1px solid #C7CBD0;
     border-radius: 12px;
+}
+.heading_text{
+    font: normal normal bold 25px/26px dazn_oscineregular;
+    margin: 40px 55px 0;
 }
