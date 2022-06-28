@@ -10491,6 +10491,7 @@ body {
 
 .home .nav-item a {
   color: #FFFFFF !important;
+  padding: 0 !important;
 }
 
 .home .nav-item a:hover {
@@ -11283,13 +11284,17 @@ body {
 }
 
 .social-Impact-class {
-  font: normal normal normal 100px/90px dazn_oscineExtrabold;
+  font: normal normal normal 85px/90px dazn_oscineExtrabold;
   color: #F7FF1A;
 }
 
+.bg-top-social {
+  background: #F9FAFA 0% 0% no-repeat padding-box;
+}
+
 .social-impact-text {
-  font: normal normal 300 30px/50px dazn_oscineregular;
-  padding: 50px 0px;
+  font: normal normal 300 16px/25px dazn_oscineregular;
+  padding: 50px 0px 15px;
 }
 .social-impact-text p {
   margin-bottom: 2rem;
@@ -11318,7 +11323,27 @@ body {
 }
 
 p.card-text {
-  height: 160px;
-  font-size: 17px;
-  line-height: 2;
+  min-height: 100px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.card-back {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 2px 4px 20px rgba(199, 203, 208, 0.4470588235);
+  border: 1px solid #C7CBD0;
+  border-radius: 12px;
+}
+
+.btn-contact {
+  font: normal normal normal 20px/35px dazn_oscineregular;
+  letter-spacing: 0px;
+  color: #000000;
+  float: right;
+  background: #F7FF1A 0% 0% no-repeat padding-box;
+  padding-bottom: 0;
+}
+
+p.card-text {
+  padding: 0 7px;
 }/*# sourceMappingURL=social.css.map */
