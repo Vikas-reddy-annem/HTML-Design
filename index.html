@@ -169,7 +169,7 @@
       </div>
     <div class="container-fluid">
       <div class="row">
-        
+
         <div class="col">
           <h2 class="heading_text">LATEST NEWS</h2>
           <div class="owl-carousel owl-theme owl-theme owl-loaded owl-drag">
@@ -235,7 +235,7 @@
                       <img src="assets/images/danz-logo-footer.png" />
                       <div>
                           <p>DAZN Group is the world’s leading sports entertainment platform. Alongside thrill-packed live content, DAZN delivers rich, multi-dimensional, multi-screen digital entertainment for sports fans across the globe.</p>
-                         
+
                       </div>
                   </div>
               </div>
@@ -284,22 +284,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.4.1/jquery.appear.js"></script>
 <script type="module" src="assets/js/owl.carousel.js"></script>
 <script type="module" src="assets/js/dazn.common.js"></script>
-<script src="assets/js/jquery.marquee.min.js"></script>
+<script src="assets/js/jquery.liMarquee.js"></script>
 <script>
   $(window).load(function () {
 
-    // $('.clients-one').liMarquee({
-    //   scrolldelay: 0,
-    //   scrollamount: 80,
-    //   circular: true,
-    //   drag: true
-    // });
-    // $('.clients-two').liMarquee({
-    //   scrolldelay: 0,
-    //   scrollamount: 70,
-    //   circular: true,
-    //   drag: true
-    // });
+    $('.clients-one').liMarquee({
+      scrolldelay: 0,
+      scrollamount: 80,
+      circular: true,
+      drag: true
+    });
+    $('.clients-two').liMarquee({
+      scrolldelay: 0,
+      scrollamount: 70,
+      circular: true,
+      drag: true
+    });
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
       if (scroll > 400)
