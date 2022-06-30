@@ -352,6 +352,11 @@ body {
             }
         }
     }
+    .footer-statement{
+      @media only screen and (max-width: 768px) {
+        padding: 30px;
+    }
+    }
     .footer-social-links {
         ul {
             margin: 0;
@@ -395,6 +400,10 @@ body {
                 }
             }
         }
+        @media only screen and (max-width: 768px) {
+          padding: 30px;
+          padding-left: 25%;
+      }
     }
 }
 
@@ -447,7 +456,7 @@ body {
         }
     }
     color: $black000;
-   
+
     @media only screen and (max-width: 400px) {
         background: #F9FAFA;
     }
@@ -465,7 +474,7 @@ body {
                 @media screen and (max-width: 991px) {
                     font-size: 40px;
                     line-height: 59px;
-                    
+
                 }
             }
         }
