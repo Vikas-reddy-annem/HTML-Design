@@ -647,9 +647,9 @@ body {
     }
 }
 
-// 
+//
 //////////////////////////
-/// 
+///
 .our-team-bg {
     width: 100%;
     background-image: url(../images/our-team-banner.png);
@@ -739,7 +739,9 @@ body {
 .btn-bio {
     color: #002CA5;
     text-transform: uppercase;
-    padding: 5px 10px 0px 10px !important
+    padding: 5px 10px 0px 10px !important;
+    width: 60%;
+    margin: 0 20%;
 }
 
 .modal-card-img-top {
@@ -834,6 +836,7 @@ body {
 
 .card-body {
     margin: 0 auto;
+    min-width: 100%;
 }
 
 @media screen and (min-width: 768px) and (min-width: 1024px) {
