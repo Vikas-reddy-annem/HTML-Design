@@ -70,6 +70,8 @@
         autoplay:true,
         rewind:true,
         autoplayHoverPause:true,
+        // autoplayTimeout: 4500,
+        smartSpeed: 450,
         responsiveClass:true,
 
         responsive:{
