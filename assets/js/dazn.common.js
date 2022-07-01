@@ -65,10 +65,13 @@
             });
     });
     $('.owl-carousel').owlCarousel({
-        loop:true,
+        loop:false,
         margin:10,
+        autoplay:true,
+        rewind:true,
+        autoplayHoverPause:true,
         responsiveClass:true,
-    
+
         responsive:{
             0:{
                 items:1,

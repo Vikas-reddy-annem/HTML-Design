@@ -7,7 +7,7 @@
 body {
     font-family: 'dazn_oscineregular';
 }
-
+.front-page-video-video {object-fit: cover; width: 100%; height: 100%;}
 .front-page-video {
     position: $posrelative;
     width: $MaxWidth;
