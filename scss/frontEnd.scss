@@ -180,6 +180,7 @@ body {
         background-size: 50% 100%;
         p {
             padding-right: 50%;
+            margin-right: 15px;
         }
     }
     .h2-class {
@@ -559,10 +560,11 @@ body {
 }
 
 .connecting-to-fans-des {
-    font-size: 30px;
-    line-height: 50px;
+    // font-size: 30px;
+    // line-height: 50px;
     background-color: #E8E8E8;
-    font-family: 'dazn_oscinelight';
+    // font-family: 'dazn_oscinelight';
+    font:normal normal normal 25px/31px dazn_oscineregular;
     @media screen and (max-width: 991px) {
         font-size: 25px;
         line-height: 40px;
