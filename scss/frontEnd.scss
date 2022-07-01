@@ -583,9 +583,6 @@ body {
         padding-left: 35px;
         padding-right: 35px;
     }
-    h4{
-      font: normal normal bold 25px/36px dazn_oscinexbold !important;
-    }
 }
 
 .nav-color {
@@ -598,6 +595,11 @@ body {
         padding-left: 55px;
         padding-right: 55px;
     }
+}
+.marquee-vert{
+  h4{
+    font: normal normal bold 25px/36px dazn_oscinexbold !important;
+  }
 }
 
 .news-car {
@@ -850,5 +852,6 @@ body {
 .heading_text{
     font: normal normal bold 25px/26px dazn_oscineregular;
     margin: 40px 55px 0;
+    text-align: center;
 }
 
