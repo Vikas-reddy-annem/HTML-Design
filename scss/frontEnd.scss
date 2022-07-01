@@ -232,12 +232,13 @@ body {
     img {
         max-width: none !important;
         width: 180px;
-        filter: grayscale(100%);
-        transition: all 0.5s ease;
+        // filter: grayscale(100%);
+        // transition: all 0.5s ease;
         &:hover {
-            filter: initial;
+            // filter: initial;
+            filter: grayscale(100%);
             transition: all 0.5s ease;
-            background: #F9FAFA;
+            // background: #F9FAFA;
         }
     }
 }
@@ -438,10 +439,10 @@ body {
     .mission-sports-y-set {
         display: flex;
         background-image: url(../images/Yellow_BG.svg);
-    background-position: right top; 
+    background-position: right top;
     background-repeat: no-repeat;
         align-items: center;
-        
+
         img {
             max-height: 450px;
             @media only screen and (max-width: 400px) {
@@ -485,7 +486,7 @@ body {
             }
         }
         div:nth-child(2) {
-            
+
             padding-top: 65px;
             padding-bottom: 65px;
             @media (min-width: 500px) and (max-width: 991px) {
