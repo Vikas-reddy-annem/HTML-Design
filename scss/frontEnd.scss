@@ -261,6 +261,10 @@ body {
 
 .fan-exp {
     background-color: $black;
+    background-image: url(../images/frictionless-fan.jpg);
+    background-size: contain;
+    background-position: bottom left;
+    background-repeat: no-repeat;
     padding: 30px;
     color: $whiteText;
     font-size: 3vh;
@@ -291,8 +295,8 @@ body {
             }
         }
         img {
-            width: 68px;
-            height: 68px;
+            width: 50px;
+            height: 50px;
             margin-right: 5vh;
         }
     }
@@ -481,9 +485,10 @@ body {
             }
             h2 {
                 font-size: 65px;
+                text-transform: uppercase;
                 line-height: 78px;
-                padding-top: 50px;
-                font-family: 'dazn_oscinexbold';
+                padding-top: 0px;
+                font-family: 'dazn_oscineExtrabold';
                 @media screen and (max-width: 991px) {
                     font-size: 40px;
                     line-height: 59px;
@@ -505,7 +510,7 @@ body {
             h4 {
                 // font-size: 25px;
                 // line-height: 36px;
-                padding-bottom: 40px;
+                padding-bottom: 10px;
                 // font-family: 'dazn_oscinexbold';
                 font: normal normal bold 25px/36px dazn_oscinexbold;
                 @media screen and (max-width: 991px) {
@@ -533,7 +538,7 @@ body {
 .connecting-to-fans-counter {
     color: $whiteText;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     background-color: $black000;
     .fans-counter {
         font: normal normal bold 50px/49px dazn_oscinexbold;
@@ -856,7 +861,7 @@ body {
 }
 .heading_text{
     font: normal normal bold 25px/26px dazn_oscineregular;
-    margin: 40px 55px 0;
+    margin: 60px 55px 40px;
     text-align: center;
 }
 
